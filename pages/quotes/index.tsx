@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const apiUrl = "https://api.quotable.io/random"
+const apiUrl = "/api/quote"
 
 const Weather = () => {
     const [quote, setQuote] = useState("")
